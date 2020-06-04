@@ -1,0 +1,30 @@
+settings:
+  ignore_escaped_strings:
+  - "true"
+  advise_cla_signing: 
+  - "true"
+  frontmatter_not_escaped:
+  - "true"
+
+synchronize:
+  paths:
+  - source: .
+    exclude:
+    - "broken/*"
+    - "_ Bigfile-en.po"
+    
+pretranslate:
+  segments:
+    ignore_frontmatter_keys:
+
+    ignore_patterns:          	
+    - !ruby/regexp /{%\s?([a-zA-Z0-9\.\,\-\?\'\"\s]*)\s?%}/    
+    - "{# wf_(?!featured_snippet).*#}"
+    - "^(Note|Caution|Warning|Success|Key Point|Key Term|Objective|Dogfood): "
+    - "{:.*}"
+    - "{%.*%}"
+
+  paths:
+  - source: .
+    include:
+    - "pretrans5/*.*"
