@@ -1,0 +1,295 @@
+---
+commands:
+  help: Zeigt diesen Hilfebildschirm an
+  cheat: Ermöglicht das Betrügen von Gegenständen
+  give: Gib jemandem ein paar Slimefun-Gegenstände
+  guide: Gibt sich einen Slimefun Guide
+  timings: Lag-Info zu Ihrem Server
+  teleporter: Siehe die Wegpunkte anderer Spieler
+  versions: Listet alle installierten Addons auf
+  search: Durchsucht Ihren Leitfaden nach dem angegebenen Begriff
+  open_guide: Öffnet den Slimefun-Leitfaden, ohne das Buch zu verwenden
+  stats: Zeigt einige Statistiken zu einem Spieler an
+  research:
+    description: Schalte Forschungen für einen Spieler frei / setze sie zurück
+    reset: "& cSie haben das Wissen von% player% zurückgesetzt"
+    reset-target: "& cIhr Wissen wurde zurückgesetzt"
+guide:
+  locked: GESPERRT
+  locked-category:
+  - Um diese Kategorie freizuschalten, werden Sie
+  - müssen alle Gegenstände aus dem entsperren
+  - folgende Kategorien
+  search:
+    message: "& bWas möchten Sie suchen?"
+    name: "& 7Suche ..."
+    tooltip: "& bKlicken Sie, um nach einem Artikel zu suchen"
+    inventory: Suche nach:% item%
+  tooltips:
+    open-category: Klicken Sie zum Öffnen
+    versions-notice: Diese sind sehr wichtig, wenn Fehler gemeldet werden!
+    wiki: Diesen Artikel im offiziellen Slimefun-Wiki anzeigen
+    recipes:
+      machine: Rezepte in dieser Maschine gemacht
+      miner: Ressourcen, die Sie mit diesem Miner erhalten können
+      generator: Verfügbare Kraftstoffarten
+      gold-pan: Ressourcen, die Sie erhalten können
+  cheat:
+    no-multiblocks: "& 4Sie können in Multiblocks nicht schummeln, Sie müssen sie
+      bauen!"
+  pages:
+    previous: Vorherige Seite
+    next: Nächste Seite
+  back:
+    title: Zurück
+    guide: Gehen Sie zurück zum Slimefun Guide
+    settings: Kehren Sie zum Einstellungsfeld zurück
+  languages:
+    updated: "& aIhre Sprache wurde erfolgreich eingestellt auf: & b% lang%"
+    selected-language: 'Momentan ausgewählt:'
+    select: Klicken Sie, um diese Sprache auszuwählen
+    select-default: Klicken Sie, um die Standardsprache auszuwählen
+    translations:
+      name: "& a Fehlt etwas?"
+      lore: Klicken Sie hier, um Ihre eigene Übersetzung hinzuzufügen
+  title:
+    main: Slimefun Guide
+    settings: Einstellungen & Info
+    languages: Wählen Sie Ihre bevorzugte Sprache
+    credits: Slimefun4 Mitwirkende
+    wiki: Slimefun4 Wiki
+    addons: Addons für Slimefun4
+    bugs: Fehlerberichte
+    source: Quellcode
+  credits:
+    commit: Verpflichten
+    commits: Commits
+    profile-link: Klicken Sie hier, um ihr Profil auf GitHub zu besuchen
+    roles:
+      developer: "& 6Entwickler"
+      wiki: "& 3Wiki Editor"
+      resourcepack: "& cResourcepack Artist"
+      translator: "& 9Übersetzer"
+messages:
+  not-researched: "& 4Sie haben nicht genug Wissen, um dies zu verstehen"
+  not-enough-xp: "& 4Sie haben nicht genügend XP, um dies freizuschalten"
+  unlocked: '& bSie haben & 7 "% research%" freigeschaltet'
+  only-players: "& 4Dieser Befehl ist nur für Spieler"
+  unknown-player: "& 4Unbekannter Spieler: & c% Spieler%"
+  no-permission: "& 4Sie haben nicht die erforderliche Berechtigung dazu"
+  usage: "& 4Verwendung: & c% Nutzung%"
+  not-online: "& 4% Spieler% & cis nicht online!"
+  not-valid-item: "& 4% item% & cist kein gültiger Artikel!"
+  not-valid-amount: "& 4% Betrag% & cist kein gültiger Betrag: Er muss höher als 0
+    sein!"
+  given-item: '& bSie haben & einen% Betrag% & 7 "% Artikel% & 7" erhalten.'
+  give-item: '& bSie haben% player% & a% betrag% & 7 "% item% & 7" gegeben.'
+  not-valid-research: "& 4% Forschung% & cist keine gültige Forschung!"
+  give-research: '& bSie haben% player% die Forschung & 7 "% Forschung% & 7" gegeben.'
+  hungry: "& cSie sind zu hungrig, um das zu tun!"
+  mode-change: "& b% Gerät% -Modus geändert in: & 9% Modus%"
+  disabled-in-world: "& 4 & lDieser Gegenstand wurde in dieser Welt deaktiviert"
+  disabled-item: "& 4 & lDieser Gegenstand wurde deaktiviert! Wie hast du das überhaupt
+    bekommen?"
+  no-tome-yourself: "& cSie können das & 4Tome of Knowledge & con nicht selbst verwenden
+    ..."
+  multimeter: "& bStored Energy: & 3% gespeicherte% & b / & 3% Kapazität%"
+  talisman:
+    anvil: "& a & oIhr Talisman hat Ihr Werkzeug vor dem Brechen bewahrt"
+    miner: "& a & oIhr Talisman hat gerade deine Tropfen verdoppelt"
+    hunter: "& a & oIhr Talisman hat gerade deine Tropfen verdoppelt"
+    lava: Ihr Talisman hat Sie vor dem Verbrennen gerettet
+    water: Ihr Talisman hat Sie vor dem Ertrinken gerettet
+    angel: Ihr Talisman hat Sie vor Sturzschäden bewahrt
+    fire: Ihr Talisman hat Sie vor dem Verbrennen gerettet
+    magician: "& a & oIhr Talisman hat dir eine zusätzliche Verzauberung gegeben"
+    traveller: "& a & oIhr Talisman hat dir einen Geschwindigkeitsschub gegeben"
+    warrior: "& a & oIhr Talisman hat Ihre Stärke für eine Weile verbessert"
+    knight: "& a & oIhr Talisman hat dir 5 Sekunden Regeneration gegeben"
+    whirlwind: Ihr Talisman spiegelte das Projektil wider
+    wizard: "& a & oIhr Talisman hat dir ein besseres Glückslevel gegeben, aber vielleicht
+      auch einige andere Verzauberungsstufen gesenkt"
+  soulbound-rune:
+    fail: "& cSie können jeweils nur einen Gegenstand an Ihre Seele binden."
+    success: "& aSie haben diesen Gegenstand erfolgreich an Ihre Seele gebunden! Du
+      wirst es behalten, wenn du stirbst."
+  research:
+    start: "& 7Die alten Geister flüstern dir mysteriöse Worte ins Ohr!"
+    progress: "& 7Sie beginnen sich über & b% Forschung% & e (% Fortschritt%) zu wundern."
+  fire-extinguish: "& 7Sie haben sich selbst ausgelöscht"
+  cannot-place: "& cSie können diesen Block dort nicht platzieren!"
+  no-pvp: "& cSie können hier nicht pvp!"
+  radiation: "& 4Sie waren tödlicher Strahlung ausgesetzt! & cEntfernen Sie den radioaktiven
+    Gegenstand oder rüsten Sie den kompletten Schutzanzug aus!"
+  opening-guide: "& bÖffnungsanleitung, dies kann einige Sekunden dauern ..."
+  opening-backpack: "& bÖffnen des Rucksacks, dies kann einige Sekunden dauern ..."
+  no-iron-golem-heal: "& cDas ist kein Eisenbarren. Du kannst dies nicht verwenden,
+    um Eiserne Golems zu heilen!"
+  link-prompt: "& eKlicken Sie hier:"
+  diet-cookie: "& eSie fühlen sich langsam sehr leicht ..."
+  fortune-cookie:
+  - "& 7Hilf mir, ich bin in einer Glückskeksfabrik gefangen!"
+  - "& 7Sie werden morgen sterben ... von einem Creeper"
+  - "& 7 Irgendwann in deinem Leben wird etwas Schlimmes passieren !!!"
+  - "& 7Nächste Woche werden Sie feststellen, dass dies nicht die reale Welt ist,
+    Sie befinden sich in einem Computerspiel"
+  - "& 7Dieser Cookie schmeckt in wenigen Sekunden gut"
+  - '& 7Das letzte Wort, das Sie hören werden, ist "EXTERMINATE !!!"'
+  - "& 7Was auch immer Sie tun, umarmen Sie keinen Creeper ... Ich habe es versucht.
+    Es fühlt sich gut an, aber es lohnt sich nicht."
+  - "& 742. Die Antwort ist 42."
+  - "& 7A Walshy pro Tag wird die Probleme fernhalten."
+  - "& 7Niemals direkt nach unten graben!"
+machines:
+  pattern-not-found: "& eSorry, ich konnte dieses Rezept nicht erkennen. Bitte legen
+    Sie die Artikel im richtigen Muster in den Spender."
+  unknown-material: "& eSorry, ich konnte den Artikel in meinem Spender nicht erkennen.
+    Bitte geben Sie etwas ein, das ich kenne."
+  wrong-item: "& eSorry, ich konnte den Artikel nicht erkennen, mit dem Sie mich mit
+    der rechten Maustaste angeklickt haben. Überprüfen Sie die Rezepte und sehen Sie,
+    welche Elemente Sie verwenden können."
+  full-inventory: "& eSorry, mein Inventar ist zu voll!"
+  in-use: "& cDieses Inventar dieses Blocks wird derzeit von einem anderen Spieler
+    geöffnet."
+  ignition-chamber-no-flint: "& cIgnition Chamber fehlt Flint and Steel."
+  ANCIENT_ALTAR:
+    not-enough-pedestals: "& 4Der Altar ist nicht von der erforderlichen Anzahl an
+      Sockeln & c umgeben (% Sockel% / 8)."
+    unknown-catalyst: "& 4Unbekannter Katalysator! & Verwenden Sie stattdessen das
+      richtige Rezept!"
+    unknown-recipe: "& 4Unbekanntes Rezept! & Verwenden Sie stattdessen das richtige
+      Rezept!"
+  ANCIENT_PEDESTAL:
+    obstructed: "& 4Pedestal ist blockiert! & cEntfernen Sie alles über dem Sockel!"
+  HOLOGRAM_PROJECTOR:
+    enter-text: "& 7Bitte geben Sie Ihren gewünschten Hologrammtext in Ihren Chat
+      ein. & r (Farbcodes werden unterstützt!)"
+    inventory-title: Hologramm-Editor
+  ELEVATOR:
+    no-destinations: "& 4Keine Ziele gefunden"
+    pick-a-floor: "& 3- Wählen Sie eine Etage -"
+    current-floor: "& eDies ist die Etage, auf der Sie sich gerade befinden:"
+    click-to-teleport: "& eKlicken Sie & 7, um sich in diese Etage zu teleportieren:"
+    enter-name: "& 7Bitte geben Sie Ihren gewünschten Etagennamen in Ihren Chat ein.
+      & r (Farbcodes werden unterstützt!)"
+    named: "& 2 Diese Etage wurde erfolgreich benannt: & r% Etage%"
+  TELEPORTER:
+    teleporting: "& 3Teleporting ..."
+    teleported: "& 3Teleportiert!"
+    cancelled: "& 4Teleportation abgesagt!"
+    invulnerability: "& b & lSie haben 30 Sekunden Unverwundbarkeit erhalten!"
+    gui:
+      title: Deine Wegpunkte
+      tooltip: Zum Teleportieren klicken
+      time: Geschätzte Zeit
+  GPS_CONTROL_PANEL:
+    title: GPS - Systemsteuerung
+    transmitters: Senderübersicht
+    waypoints: Wegpunktübersicht
+  CARGO_NODES:
+    must-be-placed: "& 4Muss auf eine Truhe oder Maschine gestellt werden!"
+anvil:
+  not-working: "& 4Sie können Slimefun-Gegenstände nicht in einem Amboss verwenden!"
+backpack:
+  already-open: "& cSorry, dieser Rucksack ist woanders geöffnet!"
+  no-stack: "& cSie können keine Rucksäcke stapeln"
+miner:
+  no-ores: "& eSorry, ich konnte keine Erze in der Nähe finden!"
+workbench:
+  not-enhanced: "& 4Sie können Slimefun-Elemente nicht in einer normalen Werkbank
+    verwenden"
+gps:
+  deathpoint: "& 4Deathpoint & 7% Datum%"
+  waypoint:
+    new: "& eBitte geben Sie im Chat einen Namen für Ihren neuen Wegpunkt ein. & 7
+      (Farbcodes unterstützt!)"
+    added: "& aErfolgreich einen neuen Wegpunkt hinzugefügt"
+    max: "& 4Sie haben die maximale Anzahl von Wegpunkten erreicht"
+  insufficient-complexity:
+  - "& 4 Unzureichende GPS-Netzwerkkomplexität: & c% Komplexität%"
+  - "& 4a) Sie haben noch kein GPS-Netzwerk-Setup"
+  - "& 4b) Ihr GPS-Netzwerk ist nicht komplex genug"
+  geo:
+    scan-required: "& 4GEO-Scan erforderlich! & cScannen Sie diesen Block zuerst mit
+      einem GEO-Scanner!"
+inventory:
+  no-access: "& 4Sie dürfen nicht auf diesen Block zugreifen"
+android:
+  started: "& 7Ihr Android hat die Ausführung seines Skripts fortgesetzt"
+  stopped: "& 7Ihr Android hat sein Skript angehalten"
+  scripts:
+    already-uploaded: "& 4Dieses Skript wurde bereits hochgeladen."
+    editor: Script Editor
+    instructions:
+      START: "& 2Start Script"
+      REPEAT: "& 9Wiederholen Sie das Skript"
+      WAIT: "& eWait 0,5s"
+      GO_FORWARD: "& 7 Vorwärts gehen"
+      GO_UP: "& 7 Nach oben bewegen"
+      GO_DOWN: "& 7 Nach unten bewegen"
+      TURN_LEFT: "& 7Biegen Sie links ab"
+      TURN_RIGHT: "& 7Biegen Sie rechts ab"
+      DIG_UP: "& bDig up"
+      DIG_FORWARD: "& bDig vorwärts"
+      DIG_DOWN: "& bDig runter"
+      MOVE_AND_DIG_UP: "& bMove & Dig nach oben"
+      MOVE_AND_DIG_FORWARD: "& bMove & Dig vorwärts"
+      MOVE_AND_DIG_DOWN: "& bMove & Dig nach unten"
+      ATTACK_MOBS_ANIMALS: "& 4Attack & c (Feindliche Mobs & Tiere)"
+      ATTACK_MOBS: "& 4Angriff & c (feindliche Mobs)"
+      ATTACK_ANIMALS: "& 4Angriff & c (Tiere)"
+      ATTACK_ANIMALS_ADULT: "& 4Angriff & c (Tiere & 7 [Erwachsene] & c)"
+      CHOP_TREE: "& cChop und Replant"
+      CATCH_FISH: "& bCatch Fish"
+      FARM_FORWARD: "& bErnten und neu pflanzen"
+      FARM_DOWN: "& bErnten und neu pflanzen & 7 (Block darunter)"
+      FARM_EXOTIC_FORWARD: "& bAdvanced Harvest and Replant"
+      FARM_EXOTIC_DOWN: "& bAdvanced Harvest and Replant & 7 (Block darunter)"
+      INTERFACE_ITEMS: "& 9Push Inventory Contents auf die Oberfläche"
+      INTERFACE_FUEL: "& cPull Fuel von der gegenüberliegenden Schnittstelle"
+    enter-name:
+    - 
+    - "& eBitte geben Sie einen Namen für Ihr Skript ein"
+    uploaded:
+    - "& Hochladen ..."
+    - "& aDas Skript wurde erfolgreich hochgeladen!"
+    rating:
+      own: "& 4Sie können Ihr eigenes Skript nicht bewerten!"
+      already: "& 4Sie haben bereits eine Bewertung für dieses Skript abgegeben!"
+languages:
+  default: Server-Standard
+  en: Englisch
+  de: Deutsche
+  fr: Französisch
+  it: Italienisch
+  es: Spanisch
+  pl: Polieren
+  sv: Schwedisch
+  nl: Niederländisch
+  cs: Tschechisch
+  hu: ungarisch
+  lv: lettisch
+  ru: Russisch
+  sk: slowakisch
+  zh-CN: Chinesisch (China)
+  zh-TW: Chinesisch (Taiwan)
+  vi: Vietnamesisch
+  id: Indonesisch
+  el: griechisch
+  he: Hebräisch
+  pt: Portugiesisch (Portugal)
+  pt-BR: Portugiesisch (Brasilien)
+  ar: Arabisch
+  af: Afrikaans
+  da: dänisch
+  fi: finnisch
+  uk: ukrainisch
+  ms: malaiisch
+  'no': norwegisch
+  ja: japanisch
+  fa: persisch
+  th: Thai
+  ro: rumänisch
+  bg: bulgarisch
+  ko: Koreanisch
+  tr: Türkisch
