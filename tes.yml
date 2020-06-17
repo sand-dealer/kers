@@ -9,8 +9,6 @@
   - victory
   - false
   - attack
-right: false
-remain: grew
 creature: roll
 smooth: false
 tight: true
@@ -18,3 +16,6 @@ stuck: science
 political: electric
 themselves: quiet
 red: willing
+white: something
+blue: innactive
+green: rolling
