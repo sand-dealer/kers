@@ -1,0 +1,24 @@
+---
+info:
+  parameters: "<jugador>"
+  description: obtener información sobre dónde estás o la isla del jugador
+  no-island: "& c No estás en una isla en este momento ..."
+  title: "========== Información de la isla ============"
+  island-uuid: 'UUID: [uuid]'
+  owner: 'Propietario: [propietario] ([uuid])'
+  last-login: 'Último inicio de sesión: [fecha]'
+  deaths: 'Muertes: [número]'
+  lifes: 'Vidas: [número]'
+  resets-left: 'Restablecimientos: [número] (Máx .: [total])'
+  team-members-title: 'Miembros del equipo:'
+  team-owner-format: "& a [nombre] [rango]"
+  team-member-format: "& b [nombre] [rango]"
+  island-location: 'Ubicación de la isla: [xyz]'
+  island-coords: 'Coordenadas de la isla: [xz1] a [xz2]'
+  islands-in-trash: "& d Player tiene islas en la basura."
+  protection-range: 'Rango de protección: [rango]'
+  purge-protected: La isla está protegida por purga
+  max-protection-range: 'Mayor rango de protección histórica: [rango]'
+  protection-coords: 'Coordenadas de protección: [xz1] a [xz2]'
+  is-spawn: La isla es una isla de desove
+  something-new: Realmente nuevo
